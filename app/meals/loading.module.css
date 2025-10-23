@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+
+.loading {
+  @apply text-amber-300 opacity-0;
+}
+.loading active {
+  @apply opacity-100;
+}

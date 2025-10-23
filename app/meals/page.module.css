@@ -1,0 +1,15 @@
+@reference "tailwindcss";
+
+.main-container {
+  @apply flex flex-col h-screen w-full bg-blue-100;
+}
+.header {
+  @apply flex flex-row bg-green-400 justify-between p-1 rounded m-2;
+}
+.cta {
+  @apply hover:text-blue-50 rounded p-1 bg-amber-400;
+}
+
+.main {
+  @apply flex flex-col bg-blue-300 p-2 justify-center items-center gap-2;
+}
