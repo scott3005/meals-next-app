@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.headerdiv {
+  @apply rounded m-2 flex flex-row justify-between items-center bg-gray-500 text-amber-300 justify-center items-center gap-3;
+}
+
+.headerdiv div {
+  @apply flex flex-row justify-center items-center grow;
+}
+
+.headerdiv p {
+  @apply hover:bg-blue-300 m-2 p-1 rounded;
+}

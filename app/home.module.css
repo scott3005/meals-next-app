@@ -1,0 +1,23 @@
+@reference "tailwindcss";
+.main-container {
+  @apply flex flex-col h-screen w-screen overflow-x-clip bg-emerald-200 p-2;
+}
+.header {
+  @apply flex flex-row  justify-center items-center gap-20;
+}
+.slideshow {
+  @apply p-1;
+}
+.hero {
+  @apply bg-green-400 rounded p-1;
+}
+.cta {
+  @apply text-blue-400 gap-2 flex flex-row justify-end p-2;
+}
+.cta p {
+  @apply hover:text-blue-700 underline;
+}
+
+.section {
+  @apply flex flex-col rounded p-2 bg-green-400 m-3 justify-center items-center;
+}
